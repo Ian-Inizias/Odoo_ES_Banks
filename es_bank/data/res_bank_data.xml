@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+  <record id="0003" model="res.bank">
+    <field name="name">BANCO DE DEPOSITOS</field>
+    <field name="bic">BDEPESM1XXX</field>
+  </record>
+  <record id="0004" model="res.bank">
+    <field name="name">BANCO DE ANDALUCIA</field>
+    <field name="bic">BANDESSSXXX</field>
+  </record>
+  <record id="0011" model="res.bank">
+    <field name="name">ALLFUNDS BANK</field>
+    <field name="bic">ALLFESMMXXX</field>
+  </record>
+  <record id="0015" model="res.bank">
+    <field name="name">BANCA CATALANA</field>
+    <field name="bic">CATAESBBXXX</field>
+  </record>
+  <record id="0019" model="res.bank">
+    <field name="name">DEUTSCHE BANK,</field>
+    <field name="bic">DEUTESBBXXX</field>
+  </record>
+  <record id="0024" model="res.bank">
+    <field name="name">BANCO DE CREDITO BALEAR S.A.</field>
+    <field name="bic">BALEES22XXX</field>
+  </record>
+  <record id="0030" model="res.bank">
+    <field name="name">BANCO ESPAÑOL DE CREDITO</field>
+    <field name="bic">ESPCESMMXXX</field>
+  </record>
+  <record id="0031" model="res.bank">
+    <field name="name">BANCO ETCHEVERRIA</field>
+    <field name="bic">ETCHES2GXXX</field>
+  </record>
+  <record id="0036" model="res.bank">
+    <field name="name">SANTANDER INVESTMENT</field>
+    <field name="bic">SABNESMMXXX</field>
+  </record>
+  <record id="0042" model="res.bank">
+    <field name="name">BANCO GUIPUZCOANO</field>
+    <field name="bic">BSABESBBXXX</field>
+  </record>
+  <record id="0046" model="res.bank">
+    <field name="name">BANCO GALLEGO</field>
+    <field name="bic">GALEES2GXXX</field>
+  </record>
+  <record id="0049" model="res.bank">
+    <field name="name">BANCO SANTANDER</field>
+    <field name="bic">BSCHESMMXXX</field>
+  </record>
+  <record id="0050" model="res.bank">
+    <field name="name">BANCO DEL COMERCIO S.A.</field>
+    <field name="bic">BCIOESMMXXX</field>
+  </record>
+  <record id="0057" model="res.bank">
+    <field name="name">BANCO DEPOSITARIO BBVA</field>
+    <field name="bic">BVADESMMXXX</field>
+  </record>
+  <record id="0058" model="res.bank">
+    <field name="name">BNP PARI BAS ESPAÑA</field>
+    <field name="bic">BNPAESMMXXX</field>
+  </record>
+  <record id="0059" model="res.bank">
+    <field name="name">BANCO DE MADRID</field>
+    <field name="bic">MADRESMMXXX</field>
+  </record>
+  <record id="0061" model="res.bank">
+    <field name="name">BANCA MARCH</field>
+    <field name="bic">BMARES2MXXX</field>
+  </record>
+  <record id="0065" model="res.bank">
+    <field name="name">BARCLAYS BANK</field>
+    <field name="bic">BARCESMMXXX</field>
+  </record>
+  <record id="0072" model="res.bank">
+    <field name="name">BANCO PASTOR</field>
+    <field name="bic">PSTRESMMXXX</field>
+  </record>
+  <record id="0073" model="res.bank">
+    <field name="name">OPEN BANK</field>
+    <field name="bic">OPENESMMXXX</field>
+  </record>
+  <record id="0075" model="res.bank">
+    <field name="name">BANCO POPULAR ESPAÑOL</field>
+    <field name="bic">POPUESMMXXX</field>
+  </record>
+  <record id="0078" model="res.bank">
+    <field name="name">BANCA PUEYO</field>
+    <field name="bic">BAPUES22XXX</field>
+  </record>
+  <record id="0081" model="res.bank">
+    <field name="name">BANCO DE SABADELL</field>
+    <field name="bic">BSABESBBXXX</field>
+  </record>
+  <record id="0083" model="res.bank">
+    <field name="name">RENTA 4 BANCO</field>
+    <field name="bic">RENBESMMXXX</field>
+  </record>
+  <record id="0085" model="res.bank">
+    <field name="name">BANCO SANTANDER CENTRAL HISPANO</field>
+    <field name="bic">BDERESMMXXX</field>
+  </record>
+  <record id="0086" model="res.bank">
+    <field name="name">BANCO BANIF</field>
+    <field name="bic">NORTESMMXXX</field>
+  </record>
+  <record id="0091" model="res.bank">
+    <field name="name">BANCO DE ALBACETE</field>
+    <field name="bic">ALACESM1XXX</field>
+  </record>
+  <record id="0093" model="res.bank">
+    <field name="name">BANCO DE VALENCIA</field>
+    <field name="bic">VALEESVVXXX</field>
+  </record>
+  <record id="0094" model="res.bank">
+    <field name="name">RBC INVESTOR SERVICES ESPAÑA</field>
+    <field name="bic">BVALESMMXXX</field>
+  </record>
+  <record id="0095" model="res.bank">
+    <field name="name">BANCO DE VASCONIA S.A.</field>
+    <field name="bic">VASCES2PXXX</field>
+  </record>
+  <record id="0099" model="res.bank">
+    <field name="name">BANKIA</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="0108" model="res.bank">
+    <field name="name">SOCIETE GENERALE</field>
+    <field name="bic">SOGEESMMXXX</field>
+  </record>
+  <record id="0113" model="res.bank">
+    <field name="name">BANCO INDUSTRIAL DE BILBAO</field>
+    <field name="bic">INBBESM1XXX</field>
+  </record>
+  <record id="0115" model="res.bank">
+    <field name="name">BANCO DE CASTILLA-LA MANCHA</field>
+    <field name="bic">CECAESMM048</field>
+  </record>
+  <record id="0122" model="res.bank">
+    <field name="name">CITIBANK ESPA�A</field>
+    <field name="bic">CITIES2XXXX</field>
+  </record>
+  <record id="0125" model="res.bank">
+    <field name="name">BANCOFAR</field>
+    <field name="bic">BAOFESM1XXX</field>
+  </record>
+  <record id="0127" model="res.bank">
+    <field name="name">BANCO DE ALICANTE</field>
+    <field name="bic">BBVAESMMXXX</field>
+  </record>
+  <record id="0128" model="res.bank">
+    <field name="name">BANKINTER</field>
+    <field name="bic">BKBKESMMXXX</field>
+  </record>
+  <record id="0129" model="res.bank">
+    <field name="name">BBVA BANCO DE FINANCIACION</field>
+    <field name="bic">INALESM1XXX</field>
+  </record>
+  <record id="0130" model="res.bank">
+    <field name="name">BANCO CAIXA GERAL</field>
+    <field name="bic">CGDIESMMXXX</field>
+  </record>
+  <record id="0131" model="res.bank">
+    <field name="name">BANCO ESPIRITO SANTO SUCURSAL ESPAÑA</field>
+    <field name="bic">BESMESMMXXX</field>
+  </record>
+  <record id="0133" model="res.bank">
+    <field name="name">NUEVO MICRO BANK</field>
+    <field name="bic">MIKBESB1XXX</field>
+  </record>
+  <record id="0136" model="res.bank">
+    <field name="name">ARESBANK</field>
+    <field name="bic">AREBESMMXXX</field>
+  </record>
+  <record id="0138" model="res.bank">
+    <field name="name">BANKOA</field>
+    <field name="bic">BKOAES22XXX</field>
+  </record>
+  <record id="0144" model="res.bank">
+    <field name="name">BNP PARIBAS SECURITIES SERVICES</field>
+    <field name="bic">PARBESMXXXX</field>
+  </record>
+  <record id="0145" model="res.bank">
+    <field name="name">DEUTSCHE BANK, A.G.</field>
+    <field name="bic">DEUTESM1XXX</field>
+  </record>
+  <record id="0149" model="res.bank">
+    <field name="name">BNP PARIBAS SUCURSAL EN ESPAÑA</field>
+    <field name="bic">BNPAESMSXXX</field>
+  </record>
+  <record id="0151" model="res.bank">
+    <field name="name">JPMORGAN CHASE BANK N. ASSOCIATION</field>
+    <field name="bic">CHASESM3XXX</field>
+  </record>
+  <record id="0152" model="res.bank">
+    <field name="name">BARCLAYS BANK, P.L.C.</field>
+    <field name="bic">BPLCESMMXXX</field>
+  </record>
+  <record id="0154" model="res.bank">
+    <field name="name">CREDIT AGRICOLE CORPORATE</field>
+    <field name="bic">BSUIESMMXXX</field>
+  </record>
+  <record id="0155" model="res.bank">
+    <field name="name">BANCO DO BRASIL</field>
+    <field name="bic">BRASESMMXXX</field>
+  </record>
+  <record id="0156" model="res.bank">
+    <field name="name">THE ROYAL BANK OF SCOTLAND PLC</field>
+    <field name="bic">ABNAESMMXXX</field>
+  </record>
+  <record id="0159" model="res.bank">
+    <field name="name">COMMERZBANK</field>
+    <field name="bic">COBAESMXTMA</field>
+  </record>
+  <record id="0160" model="res.bank">
+    <field name="name">THE BANK OF TOKYO-MITSUBISHI UFJ LTD</field>
+    <field name="bic">BOTKESMXXXX</field>
+  </record>
+  <record id="0162" model="res.bank">
+    <field name="name">HSBC BANK P.L.C.</field>
+    <field name="bic">MIDLESMMXXX</field>
+  </record>
+  <record id="0167" model="res.bank">
+    <field name="name">BNP PARIBAS FORTIS</field>
+    <field name="bic">GEBAESMMXXX</field>
+  </record>
+  <record id="0168" model="res.bank">
+    <field name="name">ING BELGIUM</field>
+    <field name="bic">BBRUESMXXXX</field>
+  </record>
+  <record id="0169" model="res.bank">
+    <field name="name">BANCO DE LA NACION ARGENTINA</field>
+    <field name="bic">NACNESMMXXX</field>
+  </record>
+  <record id="0182" model="res.bank">
+    <field name="name">BANCO BILBAO VIZCAYA ARGENTARIA</field>
+    <field name="bic">BBVAESMMXXX</field>
+  </record>
+  <record id="0184" model="res.bank">
+    <field name="name">BANCO EUROPEO DE FINANZAS</field>
+    <field name="bic">BEDFESM1XXX</field>
+  </record>
+  <record id="0185" model="res.bank">
+    <field name="name">B.URQUIJO SABADELL B.PRIVA</field>
+    <field name="bic">BSABESBBXXX</field>
+  </record>
+  <record id="0186" model="res.bank">
+    <field name="name">BANCO DE MEDIOLANUM</field>
+    <field name="bic">BFIVESBBXXX</field>
+  </record>
+  <record id="0188" model="res.bank">
+    <field name="name">BANCO ALCALA</field>
+    <field name="bic">ALCLESMMXXX</field>
+  </record>
+  <record id="0190" model="res.bank">
+    <field name="name">BANCO BPI</field>
+    <field name="bic">BBPIESMMXXX</field>
+  </record>
+  <record id="0196" model="res.bank">
+    <field name="name">PORTIGON AG SUCURCAL EN ESPAÑA</field>
+    <field name="bic">WELAESMMXXX</field>
+  </record>
+  <record id="0198" model="res.bank">
+    <field name="name">BANCO COOPERATIVO ESPA�OL</field>
+    <field name="bic">BCOEESMMXXX</field>
+  </record>
+  <record id="0200" model="res.bank">
+    <field name="name">PRIVAT BANK DEGROOF</field>
+    <field name="bic">PRVBESB1XXX</field>
+  </record>
+  <record id="0211" model="res.bank">
+    <field name="name">EBN BANCO DE NEGOCIOS</field>
+    <field name="bic">PROAESMMXXX</field>
+  </record>
+  <record id="0216" model="res.bank">
+    <field name="name">TARGOBANK</field>
+    <field name="bic">POHIESMMXXX</field>
+  </record>
+  <record id="0218" model="res.bank">
+    <field name="name">FCE BANK P.L.C.</field>
+    <field name="bic">FCEFESM1XXX</field>
+  </record>
+  <record id="0219" model="res.bank">
+    <field name="name">BANQUE MAROCAINE COMMERCE EXTERIEUR</field>
+    <field name="bic">BMCEESMMXXX</field>
+  </record>
+  <record id="0220" model="res.bank">
+    <field name="name">BANCO FINANTIA SOFINLOC</field>
+    <field name="bic">FIOFESM1XXX</field>
+  </record>
+  <record id="0223" model="res.bank">
+    <field name="name">GENERAL ELECTRIC CAPITAL BANK</field>
+    <field name="bic">GEECESB1XXX</field>
+  </record>
+  <record id="0224" model="res.bank">
+    <field name="name">SANTANDER CONSUMER FINANCE</field>
+    <field name="bic">SCFBESMMXXX</field>
+  </record>
+  <record id="0225" model="res.bank">
+    <field name="name">BANCO CETELEM</field>
+    <field name="bic">FIEIESM1XXX</field>
+  </record>
+  <record id="0226" model="res.bank">
+    <field name="name">UBS BANK</field>
+    <field name="bic">UBSWESMMXXX</field>
+  </record>
+  <record id="0227" model="res.bank">
+    <field name="name">UNOE BANK</field>
+    <field name="bic">UNOEESM1XXX</field>
+  </record>
+  <record id="0229" model="res.bank">
+    <field name="name">BANCOPOPULAR-E</field>
+    <field name="bic">POPLESMMXXX</field>
+  </record>
+  <record id="0231" model="res.bank">
+    <field name="name">DEXIA SABADELL</field>
+    <field name="bic">DSBLESMMXXX</field>
+  </record>
+  <record id="0232" model="res.bank">
+    <field name="name">BANCO INVERSIS</field>
+    <field name="bic">INVLESMMXXX</field>
+  </record>
+  <record id="0233" model="res.bank">
+    <field name="name">POPULAR BANCA PRIVADA</field>
+    <field name="bic">POPIESMMXXX</field>
+  </record>
+  <record id="0234" model="res.bank">
+    <field name="name">BANCO CAMINOS</field>
+    <field name="bic">CCOCESMMXXX</field>
+  </record>
+  <record id="0235" model="res.bank">
+    <field name="name">BANCO PICHINCHA ESPA�A</field>
+    <field name="bic">PIESESM1XXX</field>
+  </record>
+  <record id="0236" model="res.bank">
+    <field name="name">LLOYDS BANK INTERNATIONAL</field>
+    <field name="bic">LOYIESMMXXX</field>
+  </record>
+  <record id="0237" model="res.bank">
+    <field name="name">CAJASUR BANCO</field>
+    <field name="bic">CSURES2CXXX</field>
+  </record>
+  <record id="0238" model="res.bank">
+    <field name="name">BANCO POPULAR PASTOR</field>
+    <field name="bic">PSTRESMMXXX</field>
+  </record>
+  <record id="0487" model="res.bank">
+    <field name="name">BANCO MARE NOSTRUM</field>
+    <field name="bic">GBMNESMMXXX</field>
+  </record>
+  <record id="0488" model="res.bank">
+    <field name="name">BANCO FINANCIERO Y DE AHORROS</field>
+    <field name="bic">BFASESMMXXX</field>
+  </record>
+  <record id="1000" model="res.bank">
+    <field name="name">INSTITUTO DE CREDITO OFICIAL</field>
+    <field name="bic">ICROESMMXXX</field>
+  </record>
+  <record id="1302" model="res.bank">
+    <field name="name">ARGENTARIA, CAJA POSTAL Y BANCO HIP.</field>
+    <field name="bic">BBVAESMMXXX</field>
+  </record>
+  <record id="1457" model="res.bank">
+    <field name="name">DE LAGE LANDEN INTERNATIONAL B.V.</field>
+    <field name="bic">LLISESM1XXX</field>
+  </record>
+  <record id="1459" model="res.bank">
+    <field name="name">RABOBANK INTERNATIONAL</field>
+    <field name="bic">PRABESMMXXX</field>
+  </record>
+  <record id="1460" model="res.bank">
+    <field name="name">CREDIT SUISSE AG</field>
+    <field name="bic">CRESESMMXXX</field>
+  </record>
+  <record id="1463" model="res.bank">
+    <field name="name">BANQUE PSA FINANCE</field>
+    <field name="bic">PSABESM1XXX</field>
+  </record>
+  <record id="1465" model="res.bank">
+    <field name="name">ING DIRECT N.V.</field>
+    <field name="bic">INGDESMMXXX</field>
+  </record>
+  <record id="1467" model="res.bank">
+    <field name="name">HYPOTHEKENBANK FRANKFURT AG</field>
+    <field name="bic">EHYPESMXXXX</field>
+  </record>
+  <record id="1470" model="res.bank">
+    <field name="name">BANCO PORTUGUES DE INVESTIMENTO</field>
+    <field name="bic">BPIPESM1XXX</field>
+  </record>
+  <record id="1472" model="res.bank">
+    <field name="name">CREDIT AGRICOLE LEASING &amp; FACTORING</field>
+    <field name="bic">UCSSESM1XXX</field>
+  </record>
+  <record id="1473" model="res.bank">
+    <field name="name">BANQUE PRIVEE EDMOND DE ROTHSCHILD</field>
+    <field name="bic">PRIBESMXXXX</field>
+  </record>
+  <record id="1474" model="res.bank">
+    <field name="name">CITIBANK INTERNATIONAL PLC</field>
+    <field name="bic">CITIESMXSEC</field>
+  </record>
+  <record id="1475" model="res.bank">
+    <field name="name">CORTAL CONSORS</field>
+    <field name="bic">CCSEESM1XXX</field>
+  </record>
+  <record id="1479" model="res.bank">
+    <field name="name">NATIXIS SUCURSAL EN ESPAÑA</field>
+    <field name="bic">NATXESMMXXX</field>
+  </record>
+  <record id="1480" model="res.bank">
+    <field name="name">VOLKSWAGEN BANK GMBH</field>
+    <field name="bic">VOWAES21XXX</field>
+  </record>
+  <record id="1485" model="res.bank">
+    <field name="name">BANK OF AMERICA N.A.</field>
+    <field name="bic">BOFAES2XXXX</field>
+  </record>
+  <record id="1488" model="res.bank">
+    <field name="name">PICTET &amp; CIE (EUROPE)</field>
+    <field name="bic">PICTESMMXXX</field>
+  </record>
+  <record id="1490" model="res.bank">
+    <field name="name">SELF TRADE BANK</field>
+    <field name="bic">SELFESMMXXX</field>
+  </record>
+  <record id="1491" model="res.bank">
+    <field name="name">TRIODOS BANK N.V.</field>
+    <field name="bic">TRIOESMMXXX</field>
+  </record>
+  <record id="1494" model="res.bank">
+    <field name="name">INTESA SANPAOLO, S.P.A.</field>
+    <field name="bic">BCITESMMXXX</field>
+  </record>
+  <record id="1497" model="res.bank">
+    <field name="name">BANCO ESPIRITO SANTO DE INVESTIMENTO</field>
+    <field name="bic">ESSIESMMXXX</field>
+  </record>
+  <record id="1501" model="res.bank">
+    <field name="name">DEUTSCHE PFANDBRIEFBANK, AG</field>
+    <field name="bic">DPBBESM1XXX</field>
+  </record>
+  <record id="1502" model="res.bank">
+    <field name="name">IKB DEUTSCHE INDUSTRIEBANK AG.</field>
+    <field name="bic">IKBDESM1XXX</field>
+  </record>
+  <record id="1505" model="res.bank">
+    <field name="name">EUROPE ARAB BANK PLC</field>
+    <field name="bic">ARABESMMXXX</field>
+  </record>
+  <record id="1506" model="res.bank">
+    <field name="name">INTERNATIONAL BANK LTD</field>
+    <field name="bic">MLCBESM1XXX</field>
+  </record>
+  <record id="1522" model="res.bank">
+    <field name="name">EFG BANK SUCURSAL EN ESPAÑA</field>
+    <field name="bic">EFGBESMMXXX</field>
+  </record>
+  <record id="1524" model="res.bank">
+    <field name="name">UBI BANCA INTERNATIONAL</field>
+    <field name="bic">UBIBESMMXXX</field>
+  </record>
+  <record id="1525" model="res.bank">
+    <field name="name">BANQUE CHAABI DU MAROC</field>
+    <field name="bic">BCDMESM1XXX</field>
+  </record>
+  <record id="1534" model="res.bank">
+    <field name="name">KBL EUROPEAN PRIVATE BANKERS</field>
+    <field name="bic">KBLXESMMXXX</field>
+  </record>
+  <record id="1535" model="res.bank">
+    <field name="name">AKFBANK GMBH &amp;CO KG</field>
+    <field name="bic">AKFBDE31XXX</field>
+  </record>
+  <record id="1538" model="res.bank">
+    <field name="name">INDUSTRIAL &amp;COMMERCIAL BANK OF CHINA</field>
+    <field name="bic">ICBKESM1XXX</field>
+  </record>
+  <record id="1541" model="res.bank">
+    <field name="name">ATTIJARIWAFA BANK EUROPE</field>
+    <field name="bic">BCMAESM1XXX</field>
+  </record>
+  <record id="1544" model="res.bank">
+    <field name="name">ANDBANK LUXEMBOURG</field>
+    <field name="bic">BACALULLXXX</field>
+  </record>
+  <record id="1545" model="res.bank">
+    <field name="name">CREDIT AGRICOLE LUXEMBOURG</field>
+    <field name="bic">AGRIESMMXXX</field>
+  </record>
+  <record id="2000" model="res.bank">
+    <field name="name">CECABANK</field>
+    <field name="bic">CECAESMMXXX</field>
+  </record>
+  <record id="2013" model="res.bank">
+    <field name="name">CATALUNYA BANC</field>
+    <field name="bic">CESCESBBXXX</field>
+  </record>
+  <record id="2017" model="res.bank">
+    <field name="name">CAJA CIRCULO</field>
+    <field name="bic">CECAESMM017</field>
+  </record>
+  <record id="2018" model="res.bank">
+    <field name="name">CAJA DE BURGOS</field>
+    <field name="bic">CAIXESBBXXX</field>
+  </record>
+  <record id="2024" model="res.bank">
+    <field name="name">CAJA SUR</field>
+    <field name="bic">BASKES2BXXX</field>
+  </record>
+  <record id="2030" model="res.bank">
+    <field name="name">CAIXA GIRONA</field>
+    <field name="bic">CAIXESBBXXX</field>
+  </record>
+  <record id="2031" model="res.bank">
+    <field name="name">CAJA GRANADA</field>
+    <field name="bic">CECAESMM031</field>
+  </record>
+  <record id="2037" model="res.bank">
+    <field name="name">CAJA RIOJA</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="2038" model="res.bank">
+    <field name="name">BANKIA</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="2041" model="res.bank">
+    <field name="name">CAIXA MANRESA</field>
+    <field name="bic">CESCESBBXXX</field>
+  </record>
+  <record id="2042" model="res.bank">
+    <field name="name">CAIXA LAIETANA</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="2043" model="res.bank">
+    <field name="name">CAJA MURCIA</field>
+    <field name="bic">CECAESMM043</field>
+  </record>
+  <record id="2048" model="res.bank">
+    <field name="name">LIBERBANK</field>
+    <field name="bic">CECAESMM048</field>
+  </record>
+  <record id="2051" model="res.bank">
+    <field name="name">SA NOSTRA</field>
+    <field name="bic">CECAESMM051</field>
+  </record>
+  <record id="2054" model="res.bank">
+    <field name="name">CAJA NAVARRA</field>
+    <field name="bic">CAIXESBBXXX</field>
+  </record>
+  <record id="2059" model="res.bank">
+    <field name="name">CAIXA SABADELL</field>
+    <field name="bic">BBVAESMMXXX</field>
+  </record>
+  <record id="2066" model="res.bank">
+    <field name="name">CAJA CANTABRIA</field>
+    <field name="bic">CECAESMM048</field>
+  </record>
+  <record id="2069" model="res.bank">
+    <field name="name">CAJA DE SEGOVIA</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="2071" model="res.bank">
+    <field name="name">CAJA DE AHORROS PROV SEVILLA</field>
+    <field name="bic">CECAESMM071</field>
+  </record>
+  <record id="2073" model="res.bank">
+    <field name="name">CAIXA TARRAGONA</field>
+    <field name="bic">CESCESBBXXX</field>
+  </record>
+  <record id="2074" model="res.bank">
+    <field name="name">CAIXA TERRASSA</field>
+    <field name="bic">BBVAESMMXXX</field>
+  </record>
+  <record id="2077" model="res.bank">
+    <field name="name">TUBANCAJA.ES</field>
+    <field name="bic">CAHMESMMXXX</field>
+  </record>
+  <record id="2080" model="res.bank">
+    <field name="name">NCG BANCO</field>
+    <field name="bic">CAGLESMMXXX</field>
+  </record>
+  <record id="2081" model="res.bank">
+    <field name="name">CAIXA PENEDES</field>
+    <field name="bic">CECAESMM081</field>
+  </record>
+  <record id="2085" model="res.bank">
+    <field name="name">IBERCAJA BANCO</field>
+    <field name="bic">CAZRES2ZXXX</field>
+  </record>
+  <record id="2086" model="res.bank">
+    <field name="name">BANCO GRUPO CAJATRES</field>
+    <field name="bic">CECAESMM086</field>
+  </record>
+  <record id="2090" model="res.bank">
+    <field name="name">BANCO CAM</field>
+    <field name="bic">BSABESBBXXX</field>
+  </record>
+  <record id="2091" model="res.bank">
+    <field name="name">CAIXA GALICIA</field>
+    <field name="bic">CAGLESMMXXX</field>
+  </record>
+  <record id="2095" model="res.bank">
+    <field name="name">KUTXABANK</field>
+    <field name="bic">BASKES2BXXX</field>
+  </record>
+  <record id="2096" model="res.bank">
+    <field name="name">CAJA ESPA�A</field>
+    <field name="bic">CSPAES2LXXX</field>
+  </record>
+  <record id="2097" model="res.bank">
+    <field name="name">CAJA VITAL KUTXA</field>
+    <field name="bic">BASKES2BXXX</field>
+  </record>
+  <record id="2099" model="res.bank">
+    <field name="name">CAJA EXTREMADURA</field>
+    <field name="bic">CECAESMM099</field>
+  </record>
+  <record id="2100" model="res.bank">
+    <field name="name">CAIXABANK</field>
+    <field name="bic">CAIXESBBXXX</field>
+  </record>
+  <record id="2103" model="res.bank">
+    <field name="name">UNICAJA BANCO</field>
+    <field name="bic">UCJAES2MXXX</field>
+  </record>
+  <record id="2104" model="res.bank">
+    <field name="name">CAJA DUERO</field>
+    <field name="bic">CSSOES2SXXX</field>
+  </record>
+  <record id="2105" model="res.bank">
+    <field name="name">CAJA DE AHORROS DE CASTILLA-LA MANCHA</field>
+    <field name="bic">CECAESMM105</field>
+  </record>
+  <record id="2108" model="res.bank">
+    <field name="name">BANCO DE C.ESPA�A IN.SALAMANCA SORIA</field>
+    <field name="bic">CSPAES2L108</field>
+  </record>
+  <record id="3001" model="res.bank">
+    <field name="name">CAJA RURAL DE ALMENDRALEJO</field>
+    <field name="bic">BCOEESMM001</field>
+  </record>
+  <record id="3005" model="res.bank">
+    <field name="name">CAJA RURAL CENTRAL</field>
+    <field name="bic">BCOEESMM005</field>
+  </record>
+  <record id="3007" model="res.bank">
+    <field name="name">CAJA RURAL DE GIJON</field>
+    <field name="bic">BCOEESMM007</field>
+  </record>
+  <record id="3008" model="res.bank">
+    <field name="name">CAJA RURAL DE NAVARRA</field>
+    <field name="bic">BCOEESMM008</field>
+  </record>
+  <record id="3009" model="res.bank">
+    <field name="name">C.R.DE EXTREMADURA GRUP.COOP.IBERICO</field>
+    <field name="bic">BCOEESMM009</field>
+  </record>
+  <record id="3016" model="res.bank">
+    <field name="name">CAJA RURAL DE SALAMANCA</field>
+    <field name="bic">BCOEESMM016</field>
+  </record>
+  <record id="3017" model="res.bank">
+    <field name="name">CAJA RURAL DE SORIA</field>
+    <field name="bic">BCOEESMM017</field>
+  </record>
+  <record id="3018" model="res.bank">
+    <field name="name">C.R. REGIONAL SAN AGUSTIN</field>
+    <field name="bic">BCOEESMM018</field>
+  </record>
+  <record id="3020" model="res.bank">
+    <field name="name">C.R. DE UTRERA S. COOP.</field>
+    <field name="bic">BCOEESMM020</field>
+  </record>
+  <record id="3023" model="res.bank">
+    <field name="name">CAJA RURAL DE GRANADA</field>
+    <field name="bic">BCOEESMM023</field>
+  </record>
+  <record id="3025" model="res.bank">
+    <field name="name">CAIXA DE C. DELS ENGINYERS</field>
+    <field name="bic">CDENESBBXXX</field>
+  </record>
+  <record id="3029" model="res.bank">
+    <field name="name">CAJA DE CREDITO DE PETREL</field>
+    <field name="bic">CCRIES2A029</field>
+  </record>
+  <record id="3035" model="res.bank">
+    <field name="name">CAJA LABORAL POPULAR</field>
+    <field name="bic">CLPEES2MXXX</field>
+  </record>
+  <record id="3045" model="res.bank">
+    <field name="name">CAIXA RURAL ALTEA</field>
+    <field name="bic">CCRIES2A045</field>
+  </record>
+  <record id="3058" model="res.bank">
+    <field name="name">CAJAS RURALES UNIDAS,SDAD.COOP.CDTO.</field>
+    <field name="bic">CCRIES2AXXX</field>
+  </record>
+  <record id="3059" model="res.bank">
+    <field name="name">CAJA RURAL DE ASTURIAS</field>
+    <field name="bic">BCOEESMM059</field>
+  </record>
+  <record id="3060" model="res.bank">
+    <field name="name">C.R.BURGOS,FUENTEP.,SEGOVIA Y CASTEL</field>
+    <field name="bic">BCOEESMM060</field>
+  </record>
+  <record id="3063" model="res.bank">
+    <field name="name">CAJA RURAL DE CORDOBA</field>
+    <field name="bic">BCOEESMM063</field>
+  </record>
+  <record id="3067" model="res.bank">
+    <field name="name">C.R. DE JAEN, BARCELONA Y MADRID</field>
+    <field name="bic">BCOEESMM067</field>
+  </record>
+  <record id="3070" model="res.bank">
+    <field name="name">CAIXA RURAL GALEGA</field>
+    <field name="bic">BCOEESMM070</field>
+  </record>
+  <record id="3076" model="res.bank">
+    <field name="name">CAJASIETE,CAJA RURAL SDAD.COOP.CDTO.</field>
+    <field name="bic">BCOEESMM076</field>
+  </record>
+  <record id="3080" model="res.bank">
+    <field name="name">CAJA RURAL DE TERUEL</field>
+    <field name="bic">BCOEESMM080</field>
+  </record>
+  <record id="3081" model="res.bank">
+    <field name="name">CAJA RURAL DE CASTILLA-LA MANCHA</field>
+    <field name="bic">BCOEESMM081</field>
+  </record>
+  <record id="3084" model="res.bank">
+    <field name="name">IPAR KUTXA RURAL</field>
+    <field name="bic">CVRVES2BXXX</field>
+  </record>
+  <record id="3085" model="res.bank">
+    <field name="name">CAJA RURAL DE ZAMORA</field>
+    <field name="bic">BCOEESMM085</field>
+  </record>
+  <record id="3089" model="res.bank">
+    <field name="name">C.R.DE BAENA NTRA.SRA.DE GUADALUPE</field>
+    <field name="bic">BCOEESMM089</field>
+  </record>
+  <record id="3094" model="res.bank">
+    <field name="name">CAJA CAMPO</field>
+    <field name="bic">CCRIES2AXXX</field>
+  </record>
+  <record id="3095" model="res.bank">
+    <field name="name">C.R. SAN ROQUE COOP.CTO.V.</field>
+    <field name="bic">CCRIES2A095</field>
+  </record>
+  <record id="3096" model="res.bank">
+    <field name="name">CAIXA RURAL DE L'ALCUDIA</field>
+    <field name="bic">BCOEESMM096</field>
+  </record>
+  <record id="3098" model="res.bank">
+    <field name="name">C.R. NUESTRA SRA. DEL ROSARIO</field>
+    <field name="bic">BCOEESMM098</field>
+  </record>
+  <record id="3102" model="res.bank">
+    <field name="name">CAIXA RURAL SANT VICENT FERRER</field>
+    <field name="bic">BCOEESMM102</field>
+  </record>
+  <record id="3104" model="res.bank">
+    <field name="name">C.R. DE CA�ETE DE LAS TORRES</field>
+    <field name="bic">BCOEESMM104</field>
+  </record>
+  <record id="3105" model="res.bank">
+    <field name="name">CAIXA RURAL DE CALLOSA D'EN SARRIA</field>
+    <field name="bic">CCRIES2A105</field>
+  </record>
+  <record id="3110" model="res.bank">
+    <field name="name">CAJA RURAL CATOLICO AGRARIA</field>
+    <field name="bic">BCOEESMM110</field>
+  </record>
+  <record id="3111" model="res.bank">
+    <field name="name">C.R. LA VALL SAN ISIDRO</field>
+    <field name="bic">BCOEESMM111</field>
+  </record>
+  <record id="3112" model="res.bank">
+    <field name="name">C.R. SAN JOSE DE BURRIANA</field>
+    <field name="bic">CCRIES2A112</field>
+  </record>
+  <record id="3113" model="res.bank">
+    <field name="name">C.R. SAN JOSE DE ALCORA COOP.CTO.V.</field>
+    <field name="bic">BCOEESMM113</field>
+  </record>
+  <record id="3115" model="res.bank">
+    <field name="name">C.R. NUESTRA SRA. MADRE SOL</field>
+    <field name="bic">BCOEESMM115</field>
+  </record>
+  <record id="3116" model="res.bank">
+    <field name="name">C.R. COMARCAL DE MOTA DEL CUERVO</field>
+    <field name="bic">BCOEESMM116</field>
+  </record>
+  <record id="3117" model="res.bank">
+    <field name="name">CAIXA RURAL D'ALGEMESI</field>
+    <field name="bic">BCOEESMM117</field>
+  </record>
+  <record id="3118" model="res.bank">
+    <field name="name">CAIXA RURAL TORRENT</field>
+    <field name="bic">CCRIES2A118</field>
+  </record>
+  <record id="3119" model="res.bank">
+    <field name="name">C.R. SAN JAIME COOP.CTO.V.</field>
+    <field name="bic">CCRIES2A119</field>
+  </record>
+  <record id="3121" model="res.bank">
+    <field name="name">CAJA RURAL DE CHESTE</field>
+    <field name="bic">CCRIES2A121</field>
+  </record>
+  <record id="3123" model="res.bank">
+    <field name="name">CAIXA RURAL DE TURIS</field>
+    <field name="bic">CCRIES2A123</field>
+  </record>
+  <record id="3127" model="res.bank">
+    <field name="name">CAJA RURAL DE CASAS IBAÑEZ</field>
+    <field name="bic">BCOEESMM127</field>
+  </record>
+  <record id="3130" model="res.bank">
+    <field name="name">C.R. SAN JOSE DE ALMASSORA</field>
+    <field name="bic">BCOEESMM130</field>
+  </record>
+  <record id="3134" model="res.bank">
+    <field name="name">C.R. NTRA. SRA. DE LA ESPERANZA</field>
+    <field name="bic">BCOEESMM134</field>
+  </record>
+  <record id="3135" model="res.bank">
+    <field name="name">C.R. SAN JOSE DE NULES</field>
+    <field name="bic">CCRIES2A135</field>
+  </record>
+  <record id="3137" model="res.bank">
+    <field name="name">CAJA RURAL DE CASINOS</field>
+    <field name="bic">CCRIES2A137</field>
+  </record>
+  <record id="3138" model="res.bank">
+    <field name="name">CAJA RURAL DE BETXI</field>
+    <field name="bic">BCOEESMM138</field>
+  </record>
+  <record id="3140" model="res.bank">
+    <field name="name">CAJA RURAL DE GUISSONA</field>
+    <field name="bic">BCOEESMM140</field>
+  </record>
+  <record id="3144" model="res.bank">
+    <field name="name">CAJA RURAL DE VILLAMALEA</field>
+    <field name="bic">BCOEESMM144</field>
+  </record>
+  <record id="3146" model="res.bank">
+    <field name="name">CAJA DE CREDITO COOPERATIVO,S.C.CTO.</field>
+    <field name="bic">CCCVESM1XXX</field>
+  </record>
+  <record id="3150" model="res.bank">
+    <field name="name">CAJA RURAL DE ALBAL</field>
+    <field name="bic">BCOEESMM150</field>
+  </record>
+  <record id="3152" model="res.bank">
+    <field name="name">CAJA RURAL DE VILLAR</field>
+    <field name="bic">CCRIES2A152</field>
+  </record>
+  <record id="3157" model="res.bank">
+    <field name="name">C.R. DE LA JUNQUERA DE CHILCHES</field>
+    <field name="bic">CCRIES2A157</field>
+  </record>
+  <record id="3159" model="res.bank">
+    <field name="name">CAIXA POPULAR-CAIXA RURAL</field>
+    <field name="bic">BCOEESMM159</field>
+  </record>
+  <record id="3160" model="res.bank">
+    <field name="name">C.R. SANT JOSEP DE VILAVELLA</field>
+    <field name="bic">CCRIES2A160</field>
+  </record>
+  <record id="3162" model="res.bank">
+    <field name="name">CAIXA RURAL BENICARLO</field>
+    <field name="bic">BCOEESMM162</field>
+  </record>
+  <record id="3165" model="res.bank">
+    <field name="name">C.R. SAN ISIDRO DE VILAFAMES</field>
+    <field name="bic">CCRIES2A165</field>
+  </record>
+  <record id="3166" model="res.bank">
+    <field name="name">CAIXA RURAL LES COVES DE VINROMA</field>
+    <field name="bic">BCOEESMM166</field>
+  </record>
+  <record id="3174" model="res.bank">
+    <field name="name">CAIXA RURAL VINAROS COOP.C.V..</field>
+    <field name="bic">BCOEESMM174</field>
+  </record>
+  <record id="3177" model="res.bank">
+    <field name="name">CAJA RURAL DE CANARIAS</field>
+    <field name="bic">BCOEESMM177</field>
+  </record>
+  <record id="3179" model="res.bank">
+    <field name="name">CAJA RURAL DE ALGINET</field>
+    <field name="bic">CCRIES2A179</field>
+  </record>
+  <record id="3183" model="res.bank">
+    <field name="name">CAJA DE ARQUITECTOS S.COOP.CTO.</field>
+    <field name="bic">CASDESBBXXX</field>
+  </record>
+  <record id="3186" model="res.bank">
+    <field name="name">CAIXA RURAL ALBALAT DELS SORELLS</field>
+    <field name="bic">CCRIES2A186</field>
+  </record>
+  <record id="3187" model="res.bank">
+    <field name="name">CAJA RURAL DEL SUR</field>
+    <field name="bic">BCOEESMM187</field>
+  </record>
+  <record id="3188" model="res.bank">
+    <field name="name">CREDIT VALENCIA CAJA RURAL</field>
+    <field name="bic">CCRIES2A188</field>
+  </record>
+  <record id="3190" model="res.bank">
+    <field name="name">C.R.DE ALBACETE,CIUDAD REAL Y CUENCA</field>
+    <field name="bic">BCOEESMM190</field>
+  </record>
+  <record id="3191" model="res.bank">
+    <field name="name">NUEVA CAJA RURAL DE ARAGON</field>
+    <field name="bic">BCOEESMM191</field>
+  </record>
+  <record id="9000" model="res.bank">
+    <field name="name">BANCO DE ESPAÑA</field>
+    <field name="bic">ESPBESMMXXX</field>
+  </record>
+</odoo>
