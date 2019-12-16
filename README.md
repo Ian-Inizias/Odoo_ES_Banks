@@ -1,17 +1,9 @@
-# Odoo_ES_Banks
-Import module with all the spanish banks for Odoo
 ================
 Spanish banks list
 ================
 
-
 This module will import all the Spanish banks with their name and
 BIC code to ease the input of bank accounts.
-
-**Table of contents**
-
-.. contents::
-   :local:
 
 Bug Tracker
 ===========
